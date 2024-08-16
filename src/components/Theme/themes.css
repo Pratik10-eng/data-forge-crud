@@ -1,0 +1,84 @@
+
+
+  :root {
+    --primary-color: #000000;
+    --background-color: rgb(172, 216, 180);
+    --text-color: #000000;
+    --card-background-color: #ffffff; 
+    --card-text-color: #000000;
+    --card-link-color: #007bff; 
+    --modalContainer-background-color: #ffffff; 
+    --modalContainer-text-color: #000000;
+  }
+  
+  [data-theme='dark'] {
+    --primary-color: #ffffff;
+    --background-color: #000000;
+    --text-color: #ffffff;
+    --card-background-color: #333333; 
+    --card-text-color: #ffffff; 
+    --card-link-color: #66b2ff; 
+    --modalContainer-background-color: #1a1a1a; 
+  --modalContainer-text-color: #ffffff; 
+  --disclaimer-content-text-color:#000000;
+  }
+  
+  body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+  }
+  
+  .navbar {
+    background-color: var(--primary-color);
+    color: var(--text-color);
+  }
+  
+ 
+  .card {
+    background-color: var(--card-background-color);
+    color: var(--card-text-color);
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card-body {
+    padding: 16px;
+  }
+  
+  .card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+  }
+  
+  .card-subtitle {
+    font-size: 1rem;
+    color: var(--text-muted, #6c757d); 
+  }
+  
+  .card-text {
+    margin-bottom: 16px;
+  }
+  
+  .card-link {
+    color: var(--card-link-color);
+    text-decoration: none;
+  }
+  
+  .card-link:hover {
+    text-decoration: underline;
+  }
+  
+  .card-link:active {
+    color: var(--card-link-color);
+    text-decoration: none;
+  }
+  
+ 
+  
+  
+  [data-theme='dark'] .modal-container {
+    background-color: rgba(0, 0, 0, 0.8); 
+    color: #ffffff; 
+  }
+   
